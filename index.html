@@ -1,0 +1,45 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <title>HTML FORMS</title>
+    <meta charset="utf-8">
+  </head>
+  <body>
+    <fieldset>
+      <legend>HTML FORMS</legend>
+    <form>
+      <p><label>Name:</label><br>
+      <input type="text" name="Your name"  placeholder="Your name"></p>
+      <p><label>Surname:</label><br>
+      <input type="text" name="Your surname" placeholder="Your surname"></p>
+      <p><label>Email:</label><br>
+      <input type="text" name="Your email" placeholder="Your email"></p>
+      <p><label>Mobile:</label><br>
+      <input type="text" name="Your mobile" placeholder="+370"></p>
+      <p><label>Age:</label><br>
+      <input type="number" name="Your age" style="width:40px" min="0" max="999"></p>
+      <p><label>Favorite food:</label><br>
+      <select>
+        <option>meat</option>
+        <option>fruits</option>
+        <option>vegetables</option>
+        <option>bakery</option>
+      </select></p>
+      <p><label>Gender:</label></p>
+      <p><label>Male</label><br>
+      <input type="radio" name="Gender" value="male"><br>
+      <label>Female</label><br>
+      <input type="radio" name="Gender" value="female"></p>
+      <p><input type="file" name="Pasirinkti failą" value="Pasirinkti failą">
+      </p>
+      <p><label>Date:</label><br>
+      <input type="date" name="Date"></p>
+      <p><label>Enter your message:</label></p>
+      <p><textarea for="Reset" for="Submit" name="message" class="textarea" rows="8" cols="80" placeholder="Message..." required="required"></textarea></p>
+      <p><input type="reset" id="Reset" name="Reset" value="Reset">
+      <input type="submit" id="Submit" name="Submit" value="Submit"></p>
+
+    </form>
+    </fieldset>
+  </body>
+</html>
